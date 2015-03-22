@@ -75,6 +75,4 @@ run_analysis <- function(){
         
         # save tidyData to file
         write.table(tidyData, "tidyData.txt", quote = FALSE, row.names = FALSE, sep="\t", eol = "\n\t")
-        write.table(names(tidyData), "tidyDataVariableNames.txt", 
-                    quote = FALSE, sep="\t")
 }
