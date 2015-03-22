@@ -1,11 +1,14 @@
 ##Code Book for tidyData.txt
+All values below are average values for a particular participant performing a certain activity type
+t values (time domain signals, captured at 50 Hz constant rate and processed to remove noise)
+Magnitude ('Mag') variables have been calculated using the Euclidian norm
+f values (frequency domain signals obtained through Fast Fourier Transform)
+Angle variables - additional data has been obtained by averaging the signals in a signal window sample.
 
 | No. | Variable | Explanation |
 |-----|----------|-------------|
-|1	subjectID	|	participant id in the study (between 1 and 30	|
-|2	activity	|	activity performed by the participant (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)	|
-|	All values below are average values for a particular participant performing a certain activity type	|
-|	t values (time domain signals, captured at 50 Hz constant rate and processed to remove noise)	|
+|1	|	subjectID	|	participant id in the study (between 1 and 30	|
+|2	|	activity	|	activity performed by the participant (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)	|
 |	3	|	tBodyAccMeanX	|	body acceleration mean X axis	|
 | 4	 |tBodyAccMeanY	|	body acceleration mean Y axis |
 | 5	 |tBodyAccMeanZ	|	body acceleration mean Z axis |
@@ -36,7 +39,6 @@
 | 30 |	tBodyGyroJerkStdX	 |	body angular velocity jerk standard deviation X axis	|
 | 31 |	tBodyGyroJerkStdY	 |	body angular velocity jerk standard deviation Y axis	|
 | 32 |	tBodyGyroJerkStdZ	 |	body angular velocity jerk standard deviation Z axis	|
-|	Magnitude ('Mag') variables have been calculated using the Euclidian norm	|
 | 33 |	tBodyAccMagMean	 |	body acceleration magnitude mean	|
 | 34 |	tBodyAccMagStd	 |	body acceleration magnitude standard deviation	|
 | 35 |	tGravityAccMagMean	|	gravity acceleration magnitude mean	|
@@ -44,10 +46,9 @@
 | 37 |	tBodyAccJerkMagMean	|	body acceleration jerk magnitude mean	|
 | 38 |	tBodyAccJerkMagStd	|	body acceleration jerk magnitude standard deviation	|
 | 39 |	tBodyGyroMagMean	|	body gyroscope magnitude mean	|
-| 40 |	tBodyGyroMagStd	body gyroscope magnitude standard deviation	|
+| 40 |	tBodyGyroMagStd	|	body gyroscope magnitude standard deviation	|
 | 41 |	tBodyGyroJerkMagMean	|	body angular velocity jerk magnitude mean	|
-| 42 |	tBodyGyroJerkMagStd	body angular velocity jerk magnitude standard deviation	|
-|	###f values (frequency domain signals obtained through Fast Fourier Transform)	|
+| 42 |	tBodyGyroJerkMagStd	|	body angular velocity jerk magnitude standard deviation	|
 |	43	|	fBodyAccMeanX	|	body acceleration mean X axis	|
 |	44	|	fBodyAccMeanY	|	body acceleration mean Y axis	|
 |	45	|	fBodyAccMeanZ	|	body acceleration mean Z axis	|
@@ -75,7 +76,6 @@
 |	67	|	fBodyGyroMeanFreqX	|	body gyroscope raw data mean frequency X axis	|
 |	68	|	fBodyGyroMeanFreqY	|	body gyroscope raw data mean frequency Y axis	|
 |	69	|	fBodyGyroMeanFreqZ	|	body gyroscope raw data mean frequency Z axis	|
-|	Magnitude ('Mag') variables have been calculated using the Euclidian norm	|
 |	70	|	fBodyAccMagMean	|	body acceleration magnitude mean	|
 |	71	|	fBodyAccMagStd	|	body acceleration magnitude standard deviation	|
 |	72	|	fBodyAccMagMeanFreq	|	body acceleration magnitude mean frequency	|
@@ -88,7 +88,6 @@
 |	79	|	fBodyBodyGyroJerkMagMean	|	body angular velocity jerk	magnitude mean	|
 |	80	|	fBodyBodyGyroJerkMagStd	|	body angular velocity jerk magnitude standard deviation	|
 |	81	|	fBodyBodyGyroJerkMagMeanFreq	|	body angular velocity jerk magnitude mean frequency	|
-|	Additional data is obtained by averaging the signals in a signal window sample.	|
 |	82	|	angletBodyAccMeangravity	|	body acceleration mean gravity	|
 |	83	|	angletBodyAccJerkMeangravityMean	|	body linear acceleration jerk mean gyroscope	|
 |	84	|	angletBodyGyroMeangravityMean	|	body gyroscope mean gravity mean	|
