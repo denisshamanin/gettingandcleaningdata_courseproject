@@ -1,9 +1,9 @@
 ##Code Book for tidyData.txt
-All values below are average values for a particular participant performing a certain activity type
-t values (time domain signals, captured at 50 Hz constant rate and processed to remove noise)
-Magnitude ('Mag') variables have been calculated using the Euclidian norm
-f values (frequency domain signals obtained through Fast Fourier Transform)
-Angle variables - additional data has been obtained by averaging the signals in a signal window sample.
+* All values below are average values for a particular participant performing a certain activity type
+* t values (time domain signals, captured at 50 Hz constant rate and processed to remove noise)
+* Magnitude ('Mag') variables have been calculated using the Euclidian norm
+* f values (frequency domain signals obtained through Fast Fourier Transform)
+* Angle variables - additional data has been obtained by averaging the signals in a signal window sample.
 
 | No. | Variable | Explanation |
 |-----|----------|-------------|
