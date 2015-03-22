@@ -30,7 +30,8 @@ The full list and description for the collected raw data can be found in the REA
 
 ###run_analysis.R
 
-The steps to prepare the tidy data output are as follows
+The steps to prepare the tidy data output are as follows:
+
 1. train and test data is read from files and merged into one data set
 2. descriptive variable names are being cleaned up from special symbols and added to the data set
 3. activity id's are being replaced by descriptive activity labels
@@ -41,5 +42,5 @@ deviation measurements is extracted
 ###Tidy data output
 The output includes a header with variable names and the average values, seperated by a "\t" symbol
 The full list of the output variables names in the tidy data set and a short description for each of them
-can be found in the code book (see CodeBook.md). 
+can be found in the code book (see [https://github.com/denisshamanin/gettingandcleaningdata_courseproject/blob/master/CodeBook.md](https://github.com/denisshamanin/gettingandcleaningdata_courseproject/blob/master/CodeBook.md)). 
 
