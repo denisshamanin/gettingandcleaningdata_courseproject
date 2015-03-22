@@ -1,12 +1,11 @@
 ##Code Book for tidyData.txt
 
 | No. | Variable | Explanation |
-|1	subjectID	|	participant id in the study (between 1 and 30)
-|2	activity	|	activity performed by the participant (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)|
-|	All values below are average values for a particular participant performing a certain activity type |
-
+|-----|----------|-------------|
+|1	subjectID	|	participant id in the study (between 1 and 30	|
+|2	activity	|	activity performed by the participant (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)	|
+|	All values below are average values for a particular participant performing a certain activity type	|
 |	t values (time domain signals, captured at 50 Hz constant rate and processed to remove noise)	|
-
 |	3	|	tBodyAccMeanX	|	body acceleration mean X axis	|
 | 4	 |tBodyAccMeanY	|	body acceleration mean Y axis |
 | 5	 |tBodyAccMeanZ	|	body acceleration mean Z axis |
@@ -48,7 +47,6 @@
 | 40 |	tBodyGyroMagStd	body gyroscope magnitude standard deviation	|
 | 41 |	tBodyGyroJerkMagMean	|	body angular velocity jerk magnitude mean	|
 | 42 |	tBodyGyroJerkMagStd	body angular velocity jerk magnitude standard deviation	|
-
 |	###f values (frequency domain signals obtained through Fast Fourier Transform)	|
 |	43	|	fBodyAccMeanX	|	body acceleration mean X axis	|
 |	44	|	fBodyAccMeanY	|	body acceleration mean Y axis	|
