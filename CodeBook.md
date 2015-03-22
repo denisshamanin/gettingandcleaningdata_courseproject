@@ -7,7 +7,7 @@
 
 | No. | Variable | Explanation |
 |-----|----------|-------------|
-|1	|	subjectID	|	participant id in the study (between 1 and 30	|
+|1	|	subjectID	|	participant id in the study (between 1 and 30)	|
 |2	|	activity	|	activity performed by the participant (one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)	|
 |	3	|	tBodyAccMeanX	|	body acceleration mean X axis	|
 | 4	 |tBodyAccMeanY	|	body acceleration mean Y axis |
